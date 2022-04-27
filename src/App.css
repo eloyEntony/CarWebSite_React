@@ -49,6 +49,8 @@
   }
 }
 
+
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -383,4 +385,34 @@ img {
   .scrollup{
     right: 3rem;
   }
+}
+
+/*=============== BUTTON ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+/*=============== SCROLL BAR ===============*/
+
+::-webkit-scrollbar{
+  width: .6rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb{
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(219, 4%, 32%);
 }

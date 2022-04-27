@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Porsche",
+            "subtitle": "Turbo S",
+            "img": "popular1.png",
+            "dashboard__data": "3.7 sec",
+            "speed": "356 Km/h",
+            "type": "Electric",
+            "price": "$175,900"
+        },
+        {
+            "id": 2,
+            "title": "Porsche",
+            "subtitle": "Taycan",
+            "img": "popular2.png",
+            "dashboard__data": "3.7 sec",
+            "speed": "356 Km/h",
+            "type": "Electric",
+            "price": "$114,900"
+        },
+        {
+            "id": 3,
+            "title": "Porsche",
+            "subtitle": "Turbo S Cross",
+            "img": "popular3.png",
+            "dashboard__data": "3.7 sec",
+            "speed": "356 Km/h",
+            "type": "Electric",
+            "price": "$150,900"
+        },
+        {
+            "id": 4,
+            "title": "Porsche",
+            "subtitle": "Boxster 718",
+            "img": "popular4.png",
+            "dashboard__data": "3.7 sec",
+            "speed": "356 Km/h",
+            "type": "Electric",
+            "price": "$125,900"
+        },
+        {
+            "id": 5,
+            "title": "Porsche",
+            "subtitle": "Cayman",
+            "img": "popular5.png",
+            "dashboard__data": "3.7 sec",
+            "speed": "356 Km/h",
+            "type": "Electric",
+            "price": "$128,900"
+        }
+    ]
+}
