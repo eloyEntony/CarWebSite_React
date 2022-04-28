@@ -1,4 +1,4 @@
-import './features.css';
+// import './features.css';
 import map from '../../../../../assets/img/map.svg';
 
 const Features = () => {

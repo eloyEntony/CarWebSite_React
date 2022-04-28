@@ -1,6 +1,7 @@
 import array from './data.json';
-import './popular.css';
 import SwiperList from './swiperList';
+
+import './popular.css';
 
 const Popular = () => {
     return (

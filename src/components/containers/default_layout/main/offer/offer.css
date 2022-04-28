@@ -35,3 +35,18 @@
     bottom: 2rem;
     right: -5.5rem;
   }
+
+  @media screen and (max-width: 320px) {
+    .container{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    
+    .offer__container{
+      grid-template-rows: max-content 180px;
+    }
+    .offer__img{
+      width: 340px;
+    }
+   
+  }

@@ -1,7 +1,7 @@
 import SteeringLine from 'remixicon-react/SteeringLineIcon';
 import CloseLine from 'remixicon-react/CloseLineIcon';
 import MenuIcon from 'remixicon-react/MenuLineIcon';
-import './header.css';
+// import './header.css';
 
 import { Link } from 'react-router-dom';
 import { useState } from 'react';

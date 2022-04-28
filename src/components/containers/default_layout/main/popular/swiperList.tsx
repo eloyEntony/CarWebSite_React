@@ -6,8 +6,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import './popular.css';
-
 import { FC } from 'react';
 
 import { Car } from '../../../../../types/car';

@@ -10,3 +10,10 @@ export interface Car {
     type: string,
     price: string
 }
+
+export interface FeaturedCar {
+    name: string,
+    model: string,
+    img: string,
+    price: string
+}

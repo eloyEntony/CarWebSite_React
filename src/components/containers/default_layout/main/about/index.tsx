@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import about from '../../../../../assets/img/about.png';
 
-import './about.css';
+// import './about.css';
 
 const About = () => {
     return (

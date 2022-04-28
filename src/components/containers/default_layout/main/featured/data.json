@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "Tesla",
+            "model": "Model X",
+            "img": "featured1.png",
+            "price": "$98,900"
+        },
+        {
+            "id": 2,
+            "name": "Tesla",
+            "model": "Model 3",
+            "img": "featured2.png",
+            "price": "$45,900"
+        },
+        {
+            "id": 3,
+            "name": "Audi",
+            "model": "E-tron",
+            "img": "featured3.png",
+            "price": "$175,900"
+        },
+        {
+            "id": 4,
+            "name": "Porsche",
+            "model": "Boxster 987",
+            "img": "featured4.png",
+            "price": "$126,900"
+        },
+        {
+            "id": 5,
+            "name": "Porsche",
+            "model": "Panamera",
+            "img": "featured5.png",
+            "price": "$126,900"
+        }
+    ]
+}

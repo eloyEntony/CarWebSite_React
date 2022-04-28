@@ -1,4 +1,5 @@
-import './App.css';
+// import './App.css';
+import './test.css';
 import { Navigate, Outlet, Route, Routes } from 'react-router';
 
 import DefaultLayout from './components/containers/default_layout';

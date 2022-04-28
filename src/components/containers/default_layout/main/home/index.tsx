@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 import home from '../../../../../assets/img/home.png';
 
-import './home.css';
+// import './home.css';
 
 const Home = () => {
     return (

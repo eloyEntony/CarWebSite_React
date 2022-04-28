@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-import './offer.css';
+// import './offer.css';
 
 const Offer = () => {
     return (
         <>
             <section className="offer section">
                 <div className="offer__container container grid">
-                    <img src="assets/img/offer-bg.png" alt="" className="offer__bg" />
+                    <img src={require('../../../../../assets/img/offer-bg.png')} alt="" className="offer__bg" />
 
                     <div className="offer__data">
                         <h2 className="section__title offer__title">
@@ -23,11 +23,11 @@ const Offer = () => {
                         </Link>
                     </div>
 
-                    <img src="assets/img/offer.png" alt="" className="offer__img" />
+                    <img src={require('../../../../../assets/img/offer.png')} alt="" className="offer__img" />
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default Offer
+export default Offer;
