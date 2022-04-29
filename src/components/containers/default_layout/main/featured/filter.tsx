@@ -8,7 +8,7 @@ const Filter = ({ activeBrand, setActiveBrand, setFiltered, data }: any) => {
             return;
         }
         // const filtered = data.filter((item: any) => item.genre_ids.includes(activeBrand));
-        const filtered = data.filter((item: any) => item.name == activeBrand);
+        const filtered = data.filter((item: any) => item.name === activeBrand);
 
         setFiltered(filtered);
     }, [activeBrand]);

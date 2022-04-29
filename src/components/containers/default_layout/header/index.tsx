@@ -4,22 +4,22 @@ import MenuIcon from 'remixicon-react/MenuLineIcon';
 import { useEffect, useState } from 'react';
 import classNames from 'classnames';
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 
 const Header = () => {
   const [click, setClick] = useState(false);
 
-  const [navbar, setNavbar] = useState(false)
+  const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 50) setNavbar(true)
-    else setNavbar(false)
-  }
+    if (window.scrollY >= 50) setNavbar(true);
+    else setNavbar(false);
+  };
 
   useEffect(() => {
-    changeBackground()
-    window.addEventListener('scroll', changeBackground)
-  })
+    changeBackground();
+    window.addEventListener('scroll', changeBackground);
+  });
 
   return (
     <>

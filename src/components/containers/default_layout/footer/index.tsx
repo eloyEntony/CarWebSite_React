@@ -59,13 +59,13 @@ const Footer = () => {
                             <div className="footer__content">
                                 <h3 className="footer__title">Follow us</h3>
                                 <ul className="footer__social">
-                                    <a href="https://www.facebook.com/" target="_blank" className="footer__social-link">
+                                    <a href="https://www.facebook.com/" target="_blank" className="footer__social-link" rel="noreferrer">
                                         <i className="ri-facebook-fill"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/" target="_blank" className="footer__social-link">
+                                    <a href="https://www.instagram.com/" target="_blank" className="footer__social-link" rel="noreferrer">
                                         <i className="ri-instagram-line"></i>
                                     </a>
-                                    <a href="https://twitter.com/" target="_blank" className="footer__social-link">
+                                    <a href="https://twitter.com/" target="_blank" className="footer__social-link" rel="noreferrer">
                                         <i className="ri-twitter-line"></i>
                                     </a>
                                 </ul>
@@ -76,7 +76,7 @@ const Footer = () => {
                     <span className="footer__copy">&#169; Bedimcode. All rigths reserved</span>
             </footer>
         </>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

@@ -48,6 +48,6 @@ const SwiperList:FC<ISwiperList> = ({array}) => {
         </>
     );
 
-}
+};
 
-export default SwiperList
+export default SwiperList;

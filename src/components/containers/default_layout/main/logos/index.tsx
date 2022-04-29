@@ -28,7 +28,7 @@ const Logos = () => {
 
             </section>
         </>
-    )
-}
+    );
+};
 
 export default Logos;
