@@ -1,3 +1,6 @@
+import { useTransform, motion, useViewportScroll } from 'framer-motion';
+
+
 import Footer from './footer';
 import Header from './header';
 import About from './main/about';
@@ -9,17 +12,21 @@ import Offer from './main/offer';
 import Popular from './main/popular';
 
 const DefaultLayout = () => {
+
+    // const { scrollY } = useViewportScroll();
+    // const offsetY = [0, 50];
+
     return (
         <>
-            <Header />
-            <Home/>
-            <About/>
-            <Popular/>
-            <Features/>
-            <Featured/>
-            <Offer/>
-            <Logos/>
-            <Footer/>
+            <Header/>
+            <Home />
+            <About />
+            <Popular />
+            <Features />
+            <Featured />
+            <Offer />
+            <Logos />
+            <Footer />
         </>
     );
 };

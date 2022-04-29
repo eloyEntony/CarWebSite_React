@@ -11,7 +11,7 @@ const Offer = () => {
 
                     <div className="offer__data">
                         <h2 className="section__title offer__title">
-                            Do You Want To Receive <br/> Special Offers?
+                            Do You Want To Receive <br /> Special Offers?
                         </h2>
                         <p className="offer__description">
                             Be the first to receive all the information about our
