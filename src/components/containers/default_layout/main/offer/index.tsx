@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 
-// import './offer.css';
-
 const Offer = () => {
     return (
         <>
@@ -26,6 +24,7 @@ const Offer = () => {
                     <img src={require('../../../../../assets/img/offer.png')} alt="" className="offer__img" />
                 </div>
             </section>
+
         </>
     );
 };

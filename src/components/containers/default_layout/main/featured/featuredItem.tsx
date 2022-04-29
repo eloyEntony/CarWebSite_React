@@ -19,10 +19,8 @@ const FeaturedItem: FC<IFeaturedItem> = ({ item }) => {
                 animate={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.3 }}
             >
-                {/* <h2>{movie.title}</h2>
-                <img src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`} alt="" /> */}
                 <article className="featured__card">
                     <div className="shape shape__smaller"></div>
                     <h1 className="featured__title">{item.name}</h1>
